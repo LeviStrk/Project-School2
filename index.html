@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igualdade de Gênero - Recursos de Apoio Psicológico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, black, black);
+            background-size: 400% 400%;
+            animation: backgroundAnimation 30s ease infinite;
+        }
+
+        header {
+            background: linear-gradient(15deg, grey, white);
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background-position: 5% 10%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 25% 50%; }
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            color: white;
+        }
+
+        h1, h2 {
+            color: blue;
+            background: linear-gradient(15deg, grey, white);
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        a {
+            color: cyan;
+            text-decoration: line;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .content, .intro, .faq, .news, .testimonials, .resources, .legislation {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(15deg, black , black)
+        }
+
+        .organization {
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(15deg, black, dark , darkgrey);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            opacity: 0;
+            animation: fadeIn 4s forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .faq, .news, .testimonials, .resources, .legislation {
+            animation: slideUp 1s ease-out;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 2; transform: translateY(0); }
+        }
+
+        .faq h3, .news h3, .testimonials h3, .resources h3, .legislation h3 {
+            margin-top: 0;
+        }
+
+        .faq ul, .news ul, .testimonials ul, .resources ul, .legislation ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .faq li, .news li, .testimonials li, .resources li, .legislation li {
+            margin-bottom: 10px;
+        }
+
+        .news .event, .testimonials .testimonial {
+            margin-bottom: 15px;
+        }
+
+        .emergency-button {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: center;
+            background: red;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+
+        .emergency-button:hover {
+            background: darkred;
+        }
+
+        .emergency-alert {
+            background: darkred;
+            border-left: 5px solid #ff0000;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .emergency-alert h3 {
+            margin-top: 0;
+            color: #d8000c;
+        }
+
+        .emergency-alert p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Recursos de Apoio Psicológico para Igualdade de Gênero</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Introdução Animada -->
+        <div class="intro">
+            <h2>Bem-vindo ao nosso Portal de Apoio!</h2>
+            <p>Este espaço foi criado para oferecer informações valiosas sobre igualdade de gênero e direitos das mulheres. Aqui, você encontrará uma seleção de organizações brasileiras que fornecem apoio psicológico e assistência para promover um ambiente mais justo e igualitário.</p>
+            <p>Explore os recursos disponíveis e descubra como essas organizações podem ajudar você ou alguém que você conheça.</p>
+        </div>
+        
+        <!-- Seção de Organizações -->
+        <div class="content">
+            <h2>Organizações de Apoio Psicológico no Brasil</h2>
+            <p>Este site tem como objetivo fornecer recursos e contatos de organizações brasileiras que oferecem apoio psicológico focado em questões de igualdade de gênero e direitos das mulheres. Abaixo estão listadas algumas organizações que podem ser úteis:</p>
+         
+            <div class="organization">
+                <h3>1. Associação Brasileira de Psicologia (ABP)</h3>
+                <p>A Associação Brasileira de Psicologia promove iniciativas para o apoio psicológico e desenvolvimento de políticas públicas voltadas para a igualdade de gênero.</p>
+                <p><a href="https://www.abp.org.br" target="_blank">Visite o site da ABP (https://www.abp.org.br)</a></p>
+           <img src="ABP.png" alt="">
+            </div>
+
+            <div class="organization">
+                <h3>2. Instituto Maria da Penha (IMP)</h3>
+                <p>O Instituto Maria da Penha oferece suporte psicológico e jurídico para mulheres vítimas de violência, além de promover campanhas e projetos voltados para a prevenção da violência de gênero.</p>
+                <p><a href="https://www.institutomariadapenha.org.br" target="_blank">Visite o site do IMP (https://www.institutomariadapenha.org.br)</a></p>
+           <img src="IMP.png" alt="">
+            </div>
+
+            <div class="organization">
+                <h3>3. Mulher em Construção</h3>
+                <p>Mulher em Construção é uma organização que oferece suporte psicológico, capacitação e orientação para mulheres em situação de vulnerabilidade social e econômica.</p>
+                <p><a href="https://www.mulheremconstrucao.org.br" target="_blank">Visite o site do Mulher em Construção (https://www.mulheremconstrucao.org.br)</a></p>
+            </div>
+        </div>
+
+        <!-- Seção de FAQ -->
+        <div class="faq">
+            <h2>Perguntas Frequentes (FAQ)</h2>
+            <ul>
+                <li>
+                    <h3>O que é igualdade de gênero?</h3>
+                    <p>Igualdade de gênero refere-se à condição em que homens e mulheres têm os mesmos direitos, responsabilidades e oportunidades em todas as áreas da vida.</p>
+                </li>
+                <li>
+                    <h3>Como posso obter apoio psicológico?</h3>
+                    <p>Você pode entrar em contato com organizações especializadas, como as listadas acima, que oferecem suporte psicológico para questões relacionadas à igualdade de gênero e direitos das mulheres.</p>
+                </li>
+                <li>
+                    <h3>O que fazer se eu ou alguém que conheço está passando por violência de gênero?</h3>
+                    <p>Procure imediatamente apoio de organizações que oferecem assistência para vítimas de violência de gênero. Elas podem fornecer suporte psicológico, orientação jurídica e ajuda prática.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Seção de Notícias e Eventos -->
+        <div class="news">
+            <h2>Notícias e Eventos</h2>
+            <div class="event">
+                <h3>Campanha de Conscientização sobre Violência de Gênero</h3>
+                <p>Data: 15 de Outubro de 2024</p>
+                <p>Descrição: Um evento para aumentar a conscientização sobre a violência de gênero, com palestras e atividades educativas.</p>
+            </div>
+            <div class="event">
+                <h3>Semana da Igualdade de Gênero</h3>
+                <p>Data: 1 a 7 de Novembro de 2024</p>
+                <p>Descrição: Uma semana dedicada à promoção da igualdade de gênero com diversos workshops e painéis sobre o tema.</p>
+            </div>
+        </div>
+
+        <!-- Seção de Depoimentos -->
+        <div class="testimonials">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <h3>Maria Silva</h3>
+                <p>"O apoio que recebi do Centro de Referência da Mulher foi fundamental para minha recuperação e empoderamento. Sou eternamente grata."</p>
+            </div>
+            <div class="testimonial">
+                <h3>Joana Souza</h3>
+                <p>"A Associação Brasileira de Psicologia me ajudou a entender meus direitos e a buscar ajuda psicológica. Eles são um recurso valioso."</p>
+            </div>
+            <div class="testimonial">
+                <h3>Dr. Pedro Alves</h3>
+                <p>"Trabalhei com várias dessas organizações e posso atestar a qualidade e o impacto positivo de seus serviços. O trabalho que elas realizam é essencial para a promoção da igualdade de gênero."</p>
+            </div>
+        </div>
+
+        <!-- Seção de Recursos Adicionais -->
+        <div class="resources">
+            <h2>Recursos Adicionais</h2>
+            <p>Aqui estão alguns recursos adicionais que podem ajudar na compreensão e na promoção da igualdade de gênero:</p>
+            <ul>
+                <li><a href="https://www.plan.org.br/igualdade-de-genero" target="_blank">Plan International Brasil: Igualdade de Gênero (https://www.plan.org.br/igualdade-de-genero)</a></li>
+                <li><a href="https://www.redebrasilatual.com.br/educacao/2020/10/igualdade-de-genero-no-brasil" target="_blank">Artigo sobre Igualdade de Gênero no Brasil - Rede Brasil Atual (https://www.redebrasilatual.com.br/educacao/2020/10/igualdade-de-genero-no-brasil)</a></li>
+                <li><a href="https://www.senac.br/educacao/formacao/igualdade-de-genero" target="_blank">Cursos sobre Igualdade de Gênero - Senac (https://www.senac.br/educacao/formacao/igualdade-de-genero)</a></li>
+                <li><a href="https://www.conselhodoidoso.org.br/lei" target="_blank">Lei Maria da Penha - Conselho do Idoso (https://www.conselhodoidoso.org.br/lei)</a></li>
+                <li><a href="https://www.jornalismoipe.com.br/igualdade-de-genero-brasil" target="_blank">Artigo sobre Políticas Públicas e Igualdade de Gênero - Jornalismo IPE (https://www.jornalismoipe.com.br/igualdade-de-genero-brasil)</a></li>
+            </ul>
+        </div>
+
+        <!-- Seção de Legislação -->
+        <div class="legislation">
+            <h2>Legislação Relevante</h2>
+            <p>Conheça as leis e políticas públicas que promovem a igualdade de gênero e protegem as mulheres no Brasil:</p>
+            <ul>
+                <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l11340.htm" target="_blank">Lei Maria da Penha (Lei nº 11.340/2006) (https://www.planalto.gov.br/ccivil_03/leis/l11340.htm)</a> - Lei que estabelece medidas de proteção às mulheres em situação de violência doméstica e familiar.</li>
+                <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l9798.htm" target="_blank">Lei de Igualdade Salarial (Lei nº 9.798/1999) (https://www.planalto.gov.br/ccivil_03/leis/l9798.htm)</a> - Lei que busca garantir a igualdade de salários entre homens e mulheres que desempenham a mesma função.</li>
+                <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l10052.htm" target="_blank">Lei de Cotas para Mulheres em Cargos Públicos (Lei nº 10.052/2000) (https://www.planalto.gov.br/ccivil_03/leis/l10052.htm)</a> - Lei que institui cotas para mulheres em cargos de direção e decisão.</li>
+                <li><a href="https://www.an.gov.br/acoes/violencia-de-genero.html" target="_blank">Política Nacional de Enfrentamento à Violência Contra a Mulher (https://www.an.gov.br/acoes/violencia-de-genero.html)</a> - Diretrizes e ações do governo para enfrentar a violência contra as mulheres.</li>
+            </ul>
+        </div>
+
+        <!-- Seção de Alerta de Emergência -->
+        <div class="emergency-alert">
+            <h3>Precisa de Ajuda Imediata?</h3>
+            <p>Se você está enfrentando uma situação de emergência ou precisa de ajuda urgente, utilize o botão abaixo para contatar diretamente o serviço de emergência. Seu bem-estar é a nossa prioridade, e este recurso está disponível para oferecer suporte imediato quando necessário.</p>
+            <p>Ao clicar no botão "Ligue para o Número de Emergência", você será redirecionado para uma ligação direta com o serviço de emergência, garantindo uma resposta rápida e eficaz em situações críticas. Não hesite em utilizar este recurso se precisar de assistência urgente!</p>
+            <!-- Botão de Emergência -->
+            <a href="tel:180" class="emergency-button" id="emergencyButton">Ligue para o Número de Emergência</a>
+        </div>
+    </div>
+</body>
+</html>
